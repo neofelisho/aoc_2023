@@ -1025,9 +1025,9 @@ four289`
 )
 
 func main() {
-	fmt.Println("Starts calculating the calibration document...")
+	println("Starts calculating the calibration document...")
 	value := calibrationValue(calibrationDocument)
-	fmt.Println("The calibration value is:", value)
+	println("The calibration value is:", value)
 }
 
 func calibrationValue(document string) int {
